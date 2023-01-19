@@ -17,8 +17,16 @@ Then I sorted by number of employees and alphabetically order
 
 ## Question 3
 
-Was written in Python
+Was written in Python, for each digit return the sum of the least significant digit and call recursively divided by 10 without the remainder
+
+Note: negative numbers will return the same sum of digits regardless to their negativity
 
 ## Question 4
 
-Was written in Python
+Was written in Python, getting input from the user and for each new temporary maximum candidate we set its count to 1.
+
+If we get another number like our current maximum we increment its count.
+
+When we get 0 we stop reading so for example for the next input: `1 -2 3 4 4 0 5 6 7`
+
+The output will be the following Tuple: `(4, 2)` since we stopped reading after 0
