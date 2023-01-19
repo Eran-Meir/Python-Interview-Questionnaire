@@ -1,0 +1,38 @@
+# CREATE TABLE IF NOT EXISTS employee
+#   (
+#      ID      INTEGER PRIMARY KEY,
+#      NAME    VARCHAR(50),
+#      SALARY  INTEGER,
+#      DEPT_ID INTEGER
+#   );
+#
+# CREATE TABLE IF NOT EXISTS department
+#   (
+#      ID       INTEGER PRIMARY KEY,
+#      NAME     VARCHAR(50),
+#      LOCATION VARCHAR(50)
+#   );
+# #INSERT INTO employee
+#             (id,
+#              name,
+#              salary,
+#              dept_id)
+# VALUES      (1,
+#              'candice',
+#              4685,
+#              1), Values (2, 'julia', 2559, 2), Values (3, 'bob', 4405, 4), Values (4 , 'scarlet', 2323, 1), Values (5, 'ileana', 1234, 4);
+#
+# #INSERT INTO employee
+#             (id,
+#              name,
+#              salary,
+#              dept_id)
+#  Values (5, 'ileana', 1234, 4);
+#
+#
+# INSERT INTO DEPARTMENT (ID, NAME, LOCATION)
+# VALUES (1, 'EXECUTIVE','Sydney');
+# VALUES (2, 'Production','Sydney');
+# VALUES (3,'Resources','Cape Town');
+# VALUES (4, 'Technical','Texas');
+# VALUES (5, 'Management','Paris');
